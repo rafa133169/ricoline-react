@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function footer1() {
   return (
-    <div className="App">
+    <div className="footer1">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/footer1.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default footer1;
