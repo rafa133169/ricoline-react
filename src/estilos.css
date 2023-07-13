@@ -136,55 +136,50 @@ header{
     top: 140px; 
     font-size: 25px;
     margin-top: 13px;
- }
+}
 
  /* termina header */
- 
 /*slider*/
 
 .carousel-item img {
     height: 300px; /* Ajusta la altura de las imágenes según tu preferencia */
     object-fit: cover;
-  }
+}
 
- /*inicia footer*/
+/*inicia footer*/
 
- footer{
+footer{
     background-color: rgb(217, 217, 217);
 }
- .info {
+.info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-  }
-  .column {
+}
+.column {
     padding: 20px;
     font-size: 15px;
     text-decoration: none;
     
     }
-  
-    .cuenta {
-      font-size: 40px;
-      display: flex;
-      color: #0A67C7;
-      
-    }
-  
-    .datos {
-  
-  width: 368px;
-  height: 34px;
-  left: 168px;
-  top: 976px;
-  
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
+.cuenta {
+    font-size: 40px;
+    display: flex;
+    color: #0A67C7;
+}
+
+.datos {
+    width: 368px;
+    height: 34px;
+    left: 168px;
+    top: 976px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
 
     }
 
@@ -192,7 +187,7 @@ header{
 .Cuenta {
     color: #4A5788;
     padding: 2rem; 
- }
+}
 
 .detalles {
     padding: 1rem;
@@ -240,22 +235,22 @@ header{
     color: #4A5788;
     padding: 2rem; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
+}
 
 .container {
     margin-bottom: 20px;
-  }
+}
 
-  .image {
+.image {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
-  }
+}
 
-  .text {
+.text {
     display: inline-block;
     vertical-align: middle;
-  }
+}
 
 .contenedor {
     text-align: center;
@@ -274,12 +269,11 @@ header{
 }
 
 .button-container {
- 
     display: flex;
     align-items: center;
-  }
+}
 
-  .button1 {
+.button1 {
     margin-left: 5px;
     padding: 5px 15px;
     background-color: #DAC7AA;
@@ -288,11 +282,11 @@ header{
     text-decoration: none;
     color: #333;
     font-size: 14px;
-  }
+}
 
 
-  /*menu de compra*/
-  .buy-1 {
+/*menu de compra*/
+.buy-1 {
     background-color: #BC3636;
     color: white;
     border: none;
@@ -301,26 +295,25 @@ header{
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-  }
+}
 
-  .form{
+.form{
     background-color: blue;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-  }
+}
 /*footer2*/
 
 .footer1{
-   
     width: 1510px; height: 503px;
     /* margin-bottom: 10px; */
      /* left: 0px; top: 2958px; */
-     position: absolute; 
-     background: rgba(88.01, 176.97, 205.06, 0.93);
-     border-radius: 57px;
+    position: absolute; 
+    background: rgba(88.01, 176.97, 205.06, 0.93);
+    border-radius: 57px;
     padding: 30px;
 }
 .footer2{
@@ -328,8 +321,7 @@ header{
     margin-top: 460px;
     width: 1510px; 
     height: 317px;
-     background: #D9D9D9;
-     
+    background: #D9D9D9;
 }
 
 #footer_correo{
@@ -351,29 +343,26 @@ header{
 
 }
 .footer_correo_boton{
-     position: absolute;
+    position: absolute;
     /*color: green;*/
     left: 990px;
     top: 252px;  
     width: 161px;
-     height: 71px; 
-     background: #FBE200; 
-     border-radius: 40.50px;
-     border-style: solid;
-     border-color: #FBE200;
+    height: 71px; 
+    background: #FBE200; 
+    border-radius: 40.50px;
+    border-style: solid;
+    border-color: #FBE200;
 }
 .inputEmail{
     opacity: 1;
-
-
 }
 
 .footer_registrate_text{
     
-     width: 570px;
+    width: 570px;
     height: 112px; 
     font-family: 'Kalam', cursive;
-   
     font-size: 70px;
     letter-spacing: 3px;
     left: 352px; 
@@ -385,17 +374,12 @@ header{
     font-family: Coiny; 
     font-weight: 400;
     word-wrap: break-word;
-   
     font-weight: bold;
-    
-    
-     
-       
 }
 
 #footer_correo::placeholder {
     font-size: 35px; /* Cambia el tamaño del texto del placeholder */
-  }
+}
 /* termina footer */
 
 
@@ -414,7 +398,7 @@ header{
     background-position: center;
     background-attachment: fixed;
 } */
- main{
+main{
     width: 100%;
     padding: 20px;
     margin: auto;
@@ -429,7 +413,6 @@ header{
 }
 .caja_trasera{
     width: 100%;
-  
     padding: 10px 20px;
     display: flex;
     justify-content: center;
